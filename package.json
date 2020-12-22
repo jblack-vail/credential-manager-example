@@ -1,0 +1,19 @@
+{
+  "name": "credential-manager-example",
+  "version": "1.0.0",
+  "description": "A minimal example app which interfaces with the credential manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": "git+https://github.com/jblack-vail/credential-manager-example.git",
+  "author": "jblack-vail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jblack-vail/credential-manager-example/issues"
+  },
+  "homepage": "https://github.com/jblack-vail/credential-manager-example#readme",
+  "dependencies": {
+    "keytar": "^7.3.0"
+  }
+}
