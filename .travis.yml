@@ -6,3 +6,6 @@ os:
 
 node_js:
   - node
+
+before_install:
+  - if [ "$TRAVIS_OS_NAME" = "windows" ]; then powershell [Set-ItemProperty -Path HKLM:\System\CurrentControlSet\Control\Lsa -Name DisableDomainCreds -Value 0]; fi
